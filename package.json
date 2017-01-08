@@ -21,6 +21,12 @@
     "verify": "npm run lint && npm run coverage && npm run build && npm run dependency-check",
     "watch": "npm run clean && node scripts/watch.js"
   },
+  "author": {
+    "name": "Homa Wong",
+    "email": "homawong@gmail.com"
+  },
+  "homepage": "https://github.com/unional/showdown-highlightjs-extension",
+  "bugs": "https://github.com/unional/showdown-highlightjs-extension/issues",
   "license": "MIT",
   "ava": {
     "files": [
@@ -42,10 +48,6 @@
       "**/*.spec.*",
       "**/fixtures/**/*"
     ]
-  },
-  "author": {
-    "name": "Homa Wong",
-    "email": "homawong@gmail.com"
   },
   "peerDependencies": {
     "showdown": "^1.5.5"

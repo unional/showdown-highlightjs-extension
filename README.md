@@ -1,7 +1,7 @@
 # showdown-highlightjs-extension
 
 [![Build Status](https://travis-ci.org/unional/showdown-highlightjs-extension.svg?branch=master)](https://travis-ci.org/unional/showdown-highlightjs-extension)
-[![Coverage Status](https://coveralls.io/repos/github/unional/showdown-highlightjs-extension/badge.svg?branch=master)](https://coveralls.io/github/unional/showdown-highlightjs-extension?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/unional/showdown-highlightjs-extension/badge.svg)](https://coveralls.io/github/unional/showdown-highlightjs-extension)
 
 [`showdown`](https://github.com/showdownjs/showdown) extension for [`highlightjs`](https://github.com/isagalaev/highlight.js).
 
