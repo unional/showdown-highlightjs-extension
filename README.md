@@ -17,7 +17,6 @@ const text = 'Some text with code block (```<language> ... ```)'
 const html = converter.makeHtml(text)
 ```
 
-
 ## Contribute
 
 ```sh

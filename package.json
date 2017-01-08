@@ -1,5 +1,5 @@
 {
-  "name": "@unional/showdown-highlightjs-extension",
+  "name": "showdown-highlightjs-extension",
   "version": "0.0.0",
   "main": "dist/commonjs/index.js",
   "typings": "dist/commonjs/index.d.ts",
@@ -47,9 +47,6 @@
   "author": {
     "name": "Homa Wong",
     "email": "homawong@gmail.com"
-  },
-  "peerDependencies": {
-    "@unional/logging": ">=0.1.1"
   },
   "devDependencies": {
     "@unional/logging": "^0.1.2",
