@@ -1,7 +1,7 @@
 {
   "name": "showdown-highlightjs-extension",
   "description": "Showdown extension for highlightjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/commonjs/index.js",
   "typings": "dist/commonjs/index.d.ts",
   "files": [
