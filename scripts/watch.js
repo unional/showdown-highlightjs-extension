@@ -19,10 +19,7 @@ cp.spawn('tsc', ['-w'], { shell: true })
         shell: true
       })
       if (lint.status === 0) {
-        let cjs = cp.spawnSync('npm', ['run', 'build-commonjs'])
-        if (cjs.status === 0) {
-          cp.spawnSync('npm', ['run', 'build-global'])
-        }
+        cp.spawnSync('npm', ['run', 'build-commonjs'])
       }
     }
   })
