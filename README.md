@@ -10,7 +10,7 @@
 ```ts
 // typscript
 import * as showdown from 'showdown'
-import 'showdown-highlightjs-extension`
+import 'showdown-highlightjs-extension'
 
 const converter = new showdown.Converter({ extensions: [ 'highlightjs' ]})
 const text = 'Some text with code block (```<language> ... ```)'
