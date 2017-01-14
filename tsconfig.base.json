@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "inlineSources": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "inlineSources": true,
     "lib": [
       "dom",
       "es2015",
@@ -13,9 +13,10 @@
     "moduleResolution": "node",
     "newLine": "LF",
     "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "removeComments": false,
     "sourceMap": true,
-    "sourceRoot": "/@unional/showdown-highlightjs-extension",
     "strictNullChecks": true,
     "target": "es5"
   }

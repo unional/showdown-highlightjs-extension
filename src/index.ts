@@ -14,7 +14,7 @@ showdown.extension('highlightjs', function () {
   const left = '<pre><code\\b[^>]*>'
   const right = '</code></pre>'
   const flags = 'g'
-  function replacement(wholeMatch, match, left, right) {
+  function replacement(_wholeMatch, match, left, right) {
     // unescape match to prevent double escaping
     match = htmlunencode(match);
     return left + highlightjs.highlightAuto(match).value + right;
@@ -23,7 +23,7 @@ showdown.extension('highlightjs', function () {
   return [
     {
       type: 'output',
-      filter: function (text, converter, options) {
+      filter: function (text, _converter, _options) {
         return showdown.helper.replaceRecursiveRegExp(text, replacement, left, right, flags);
       }
     }

@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "dist/spec"
+    "outDir": "dist-spec"
   },
   "atom": {
     "rewriteTsconfig": false
@@ -9,7 +9,6 @@
   "buildOnSave": false,
   "compileOnSave": false,
   "include": [
-    "src/**/*",
-    "typings/index.d.ts"
+    "src/**/*"
   ]
 }

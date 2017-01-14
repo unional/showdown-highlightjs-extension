@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "es2015",
+    "outDir": "dist/es2015",
+    "sourceRoot": "/@unional/showdown-highlightjs-extension",
+    "target": "es2015"
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
