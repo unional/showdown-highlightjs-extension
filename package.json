@@ -57,7 +57,7 @@
     "@unional/logging": "^0.1.2",
     "aurelia-polyfills": "^1.1.1",
     "ava": "^0.17.0",
-    "ava-fixture": "^0.3.1",
+    "ava-fixture": "^0.7.0",
     "browser-env": "^2.0.19",
     "core-js": "^2.4.1",
     "dependency-check": "^2.7.0",
