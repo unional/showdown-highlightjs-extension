@@ -1,5 +1,7 @@
 # showdown-highlightjs-extension
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/unional/showdown-highlightjs-extension.svg)](https://greenkeeper.io/)
+
 [![unstable][unstable-image]][unstable-url]
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
